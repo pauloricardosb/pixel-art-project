@@ -12,7 +12,7 @@ Para jogar, verifique os seguintes requisitos:
 
 Obs.: essa etapa é necessária para que o background da página renderize corretamente!
 
-⚠️ Obs.: Caso não tenha as ferramentas acima, você pode acessar a aplicação <a href="" >aqui</a>
+⚠️ Obs.: Caso não tenha as ferramentas acima, você pode acessar a aplicação <a href="https://pixel-art-project-nine.vercel.app/" >aqui</a>
 
 ## ☕ Usando Pixel Art Project
 
