@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+body {
+  background-image: url(/background/fundo.png);
+  background-size: cover;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#color-palette {
+  display: flex;
+  justify-content: center;
+}
+
+.color {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  margin: 1px;
+}
+
+#firstColor {
+  background-color: black;
+}
+
+#secondColor {
+  background-color: cornflowerblue;
+}
+
+#thirdColor {
+  background-color: deeppink;
+}
+
+#fourthColor {
+  background-color: khaki;
+}
+
+#main-section {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+#pixel-board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 500px;
+}
+
+#input-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#board-size,
+#generate-board,
+#clear-board {
+  margin-top: 15px;
+  margin-right: 10px;
+  border-style: hidden;
+  background-color: azure;
+  border-radius: 15px;
+  padding: 10px;
+}

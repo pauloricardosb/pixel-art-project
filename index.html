@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <header>
+    <h1 id="title">Paleta de Cores<h1>
+  </header>
+
+  <section id="color-palette">
+    <div class="color selected" id="firstColor">
+    </div>
+    <div class="color" id="secondColor">
+    </div>
+    <div class="color" id="thirdColor">
+    </div>
+    <div class="color" id="fourthColor">
+    </div>
+  </section>
+
+  <section id="input-section">
+
+    <input type="number" min="1" placeholder="Tamanho do quadro" max="50" name="board size" id="board-size" />
+
+    <button id="generate-board">Add Pixels</button>
+    <button id="clear-board">Limpar</button>
+  </section>
+
+  <main id="main-section">
+    <section id="pixel-board"></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
